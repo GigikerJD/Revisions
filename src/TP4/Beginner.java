@@ -1,5 +1,7 @@
 package TP4;
 
+import java.util.Scanner;
+
 public class Beginner {
 
     private static int factRec(int n){
@@ -42,5 +44,8 @@ public class Beginner {
 
     public static void main(String[] args) {
 
+        Scanner key = new Scanner(System.in);
+        System.out.print("Which exercise ? > ");
+        int exercise = key.nextInt();
     }
 }
