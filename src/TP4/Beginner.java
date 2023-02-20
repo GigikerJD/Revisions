@@ -47,5 +47,21 @@ public class Beginner {
         Scanner key = new Scanner(System.in);
         System.out.print("Which exercise ? > ");
         int exercise = key.nextInt();
+        String answer = "";
+
+        while(true){
+            switch (exercise){
+
+            }
+            System.out.print("Do you want to continue ? y/o > ");
+            String anwser = key.next();
+            if(answer.charAt(0) == 'y'){
+                System.out.print("Which exercise ? > ");
+                exercise = key.nextInt();
+            }else {
+                System.out.println("Au revoir ! ");
+                break;
+            }
+        }
     }
 }
