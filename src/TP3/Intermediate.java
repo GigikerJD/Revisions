@@ -86,7 +86,7 @@ public class Intermediate {
                     a = key.nextInt();
                     System.out.print("Select a randomw power > ");
                     int power = key.nextInt();
-                    System.out.println(puissance(a, power));
+                    System.out.println("a raised to the power of n is equal to : " + puissance(a, power));
                     break;
 
                 case 6:
