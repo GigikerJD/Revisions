@@ -26,10 +26,7 @@ public class Intermediate {
     }
 
     private static boolean estBissextile(int annee){
-        boolean isBis = false;
-        if(annee % 400 == 0) isBis = true;
-        else if(annee % 4 == 0 && annee % 100 != 0) isBis = true;
-        return isBis;
+        return (annee % 400 == 0) || (annee % 4 == 0 && annee % 100 != 0);
     }
 
     private static int puissance(int a, int n){
